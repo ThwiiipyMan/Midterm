@@ -55,7 +55,7 @@ public class TransportProfile
         "Free, full starting Focus, and no traffic or vehicle risk - mistakes still sting, just a little less.",
         "It's the slowest option, so you need to stay sharp the whole way (highest bar to be on time).",
         startingFocusModifier: 0,
-        onTimeThreshold: 40,
+        onTimeThreshold: 50,
         focusPenaltyMultiplier: 0.95);
 
     public static readonly TransportProfile Jeep = new(
@@ -64,7 +64,7 @@ public class TransportProfile
         "Cheap and reasonably quick - the bar to be on time is average.",
         "Waiting for one with space and squeezing aboard costs you Focus before you even sit down.",
         startingFocusModifier: -8,
-        onTimeThreshold: 35,
+        onTimeThreshold: 45,
         focusPenaltyMultiplier: 1.0);
 
     public static readonly TransportProfile Bus = new(
@@ -73,7 +73,7 @@ public class TransportProfile
         "Faster than the jeep on a good day, which lowers the bar for making it on time.",
         "Lines and checkpoints eat into your morning, and an easy-to-miss stop makes mistakes rattle you more.",
         startingFocusModifier: -5,
-        onTimeThreshold: 30,
+        onTimeThreshold: 40,
         focusPenaltyMultiplier: 1.15);
 
     public static readonly TransportProfile Motorcycle = new(
@@ -82,7 +82,7 @@ public class TransportProfile
         "By far the fastest way to beat the bell - the lowest bar of all to count as on time.",
         "Weaving through traffic is stressful and unforgiving, so every mistake costs extra Focus.",
         startingFocusModifier: 0,
-        onTimeThreshold: 20,
+        onTimeThreshold: 30,
         focusPenaltyMultiplier: 1.3);
 
     public static TransportProfile For(TransportMode mode) => mode switch
