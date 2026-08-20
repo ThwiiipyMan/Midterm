@@ -81,6 +81,11 @@ public static class TransportRoutes
         Make("Flooded Alley", "Yesterday's rain left the alley knee-deep.", "wade through the flood", Difficulty.Hard),
         Make("Barking Rooster", "The neighbor's rooster won't stop crowing at you.", "shoo the rooster away", Difficulty.Easy),
         Make("Tricycle Offer", "A tricycle driver honks, offering a ride you can't afford.", "wave him off politely", Difficulty.Medium),
+        Make("Overgrown Path", "Tall grass has swallowed half the trail.", "push through the grass", Difficulty.Medium),
+        Make("Squeaky Gate", "The subdivision gate guard needs your ID scanned.", "show your school id", Difficulty.Easy),
+        Make("Slippery Bridge", "The footbridge is wet and narrow.", "cross the bridge slowly", Difficulty.Hard),
+        Make("Vendor's Cart", "A fishball cart blocks half the sidewalk.", "squeeze past the cart", Difficulty.Easy),
+        Make("Broken Streetlight", "The intersection light has been out for days.", "look both ways twice", Difficulty.Medium),
     };
 
     private static List<Location> JeepPool() => new()
@@ -95,6 +100,11 @@ public static class TransportRoutes
         Make("Conductor's Whistle", "The conductor blows the whistle - go time.", "hop off the jeep", Difficulty.Medium),
         Make("Overloaded Jeep", "The jeep is packed way past its limit.", "hold on to the bar", Difficulty.Hard),
         Make("Rainy Ride", "Rain splatters in through the open sides.", "pull down the tarp", Difficulty.Easy),
+        Make("Barker's Call", "The barker is shouting the route to fill seats.", "confirm the route name", Difficulty.Easy),
+        Make("Sudden Swerve", "The driver swerves hard around a pothole.", "brace against the rail", Difficulty.Hard),
+        Make("Loose Coins", "Your coin purse spills across the floor.", "scoop up the coins", Difficulty.Medium),
+        Make("Stalled Engine", "The jeep sputters and stalls at a red light.", "wait for the restart", Difficulty.Medium),
+        Make("Extra Passenger", "The driver waves in one more rider than there's room for.", "scoot over for them", Difficulty.VeryHard),
     };
 
     private static List<Location> BusPool() => new()
@@ -109,6 +119,11 @@ public static class TransportRoutes
         Make("Bus Rocking", "The bus sways hard around a sharp curve.", "brace against the seat", Difficulty.Hard),
         Make("Loud Phone Call", "A passenger is on speakerphone right behind you.", "put in your earphones", Difficulty.Easy),
         Make("Overshot Stop", "You almost missed your stop entirely.", "rush to the front door", Difficulty.VeryHard),
+        Make("Fare Machine Glitch", "The tap-card reader won't scan on the first try.", "tap the card again", Difficulty.Easy),
+        Make("Sleepy Seatmate", "The passenger beside you keeps dozing onto your shoulder.", "shift away gently", Difficulty.Easy),
+        Make("Sudden Brake", "The bus brakes hard for a jaywalker.", "grab the seat in front", Difficulty.Hard),
+        Make("Wrong Change", "The conductor hands back the wrong amount.", "point out the mistake", Difficulty.Medium),
+        Make("Narrow Aisle Squeeze", "Someone's cargo blocks the aisle to the exit.", "squeeze past the boxes", Difficulty.Hard),
     };
 
     private static List<Location> MotorcyclePool() => new()
@@ -123,5 +138,10 @@ public static class TransportRoutes
         Make("Traffic Enforcer", "An enforcer flags you down for a quick check.", "show your license fast", Difficulty.Hard),
         Make("Overtaking Truck", "A slow truck is blocking the lane ahead.", "overtake when it is clear", Difficulty.Hard),
         Make("Wet Visor", "Your visor fogs up in the morning mist.", "wipe the visor clean", Difficulty.Easy),
+        Make("Flat Tire Scare", "The rear tire feels soft at the last stoplight.", "check the tire pressure", Difficulty.Medium),
+        Make("Counterflow Warning", "Other riders are cutting through the wrong lane.", "stay in your own lane", Difficulty.Hard),
+        Make("Loose Chain", "The chain rattles louder than usual.", "tighten the loose chain", Difficulty.Medium),
+        Make("Blinding Glare", "The morning sun hits you straight in the eyes.", "flip down the tinted visor", Difficulty.Easy),
+        Make("Sudden Swerve", "A stray dog darts across the road ahead.", "swerve around it fast", Difficulty.VeryHard),
     };
 }
